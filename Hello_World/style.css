@@ -1,0 +1,174 @@
+
+
+/* CSS RESET */
+
+*, html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+	
+div, input, p, th, td, figure, figcaption {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* External CSS page 1 */
+
+body {
+	background-color: #4F3E62;	
+	width: 1250px;
+	padding-left: 20px;
+	text-align: center;
+}
+
+
+ul.nav {
+	text-align: center;
+}
+
+ul.nav li {
+	display: inline-block;
+}
+
+a:link {
+	color: #E5AEFF; 
+	font-size: large;
+}
+
+a:hover {
+	color: #E9F059;
+	font-size: large;
+}
+
+a:visited {
+	color: #3BBDF7;
+	font-size: large;
+}
+
+
+h1 {
+	font-size: 4em;
+	color: #DFF6F4;
+	font-variant: small-caps; 
+	position: relative; left: 10px;	
+}
+
+h1.contact {
+	font-size: 4em;
+	color: #4F3E62;
+	font-variant: small-caps; 
+	position: relative; left: 10px;	
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 1.5em;
+	color: #B9FD9E;
+	position: relative; top: -20px; left: 40px;
+}
+
+h3 {
+	font-size: 1.5em;
+	color: #DEF7EA;
+}
+
+h4 {
+	font-family: sans-serif;
+	font-size: large;
+	color: #7D2720;
+	/*color: #4F3E62;*/
+}
+
+.aboutSubhead {
+font-family: sans-serif;
+	font-size: large;
+	color: #7D2720;
+	position: relative; top: 20px; left: 40px;
+	/*color: #4F3E62;*/
+}
+
+section {
+	display:inline-block; 
+	width: 25%;
+	vertical-align: top;
+	position: relative; top: -10px;
+	border: solid 5px #7D2720;
+}
+
+ul {
+	padding-right: 10px;
+}
+
+li {
+	color: #4F3E62;
+}
+
+.photo {
+	background-color: #ABFFFB;
+	width: 250px;
+	height: 400px;	
+}
+
+.design {
+	background-color: #DEF7EA;
+	width: 250px;
+	height: 350px;
+}
+
+.write {
+	background-color: #E4EFFF;
+	width: 250px;
+	height: 400px;	
+}
+
+.edit {
+	background-color: #FEE1EC;
+	width: 250px;
+	height: 400px;	
+}
+
+#main {
+	margin-left: -506px;
+	float: none;
+	position: absolute; top: 500px;	
+}
+
+/* External CSS page 2 */
+
+
+p {
+	color: #4F3E62;
+	padding: 20px;
+}
+
+.photo2 {
+	background-color: #ABFFFB;
+	width: 100%;
+	height: 200px;	
+}
+
+.design2 {
+	background-color: #DEF7EA;
+	width: 100%;
+	height: 200px;
+}
+
+.write2 {
+	background-color: #E4EFFF;
+	width: 100%;
+	height: 200px;	
+}
+
+.edit2 {
+	background-color: #FEE1EC;
+	width: 100%;
+	height: 200px;	
+	text-align: center;
+}
+
